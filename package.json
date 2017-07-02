@@ -4,26 +4,37 @@
   "description": "Test/Demo Repo for experimenting and demoing semantic release",
   "main": "index.js",
   "private": true,
+  "author": "Kim Holland <kim@kimmr.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tripleaxis/semantic-release-demo.git"
+  },
   "scripts": {
     "start": "node ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint:js": "eslint **/*.js",
     "prepush": "npm run lint:js",
+    "commit+": "git-cz",
     "commitmsg": "validate-commit-msg",
     "release": "corp-semantic-release --branch master"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/tripleaxis/semantic-release-demo.git"
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": ".cz-config.js"
+    }
   },
-  "author": "Kim Holland <kim@kimmr.com>",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/tripleaxis/semantic-release-demo/issues"
   },
   "homepage": "https://github.com/tripleaxis/semantic-release-demo#readme",
   "devDependencies": {
+    "commitizen": "~2.9.6",
     "corp-semantic-release": "~6.1.0",
+    "cz-customizable": "~5.0.0",
     "eslint": "~3.19.0",
     "eslint-config-airbnb": "~15.0.1",
     "eslint-plugin-import": "~2.6.1",
