@@ -22,10 +22,12 @@ style(app): Updated eslint rules to latest version and applied formatting change
 **Note:** By default, commitizen uses angular-centric scopes ($location, $browser, $compile, etc) 
 so we use cz-customizable to allow us to override them and define our own.
 
-See [here](./.cz-config.js) for commit message format reference.
-
 In addition this project supports [commitizen](http://commitizen.github.io/cz-cli/) and a 
 [local commitizen install/npm script](https://github.com/tripleaxis/semantic-release-demo/blob/master/package.json#L18) is available for use if command-line git is your thing.
+
+#### Reference Links
+- [General commit message conventions](https://github.com/conventional-changelog-archived-repos/conventional-changelog-angular/blob/master/convention.md)
+- [Custom scopes for this project](./.cz-config.js)
 
 ## GitHooks
 
