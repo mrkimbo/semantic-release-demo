@@ -8,7 +8,8 @@
     "start": "node ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint:js": "eslint **/*.js",
-    "precommit": "npm run lint:js",
+    "prepush": "npm run lint:js",
+    "commitmsg": "validate-commit-msg",
     "release": "corp-semantic-release --branch master"
   },
   "repository": {
@@ -28,6 +29,7 @@
     "eslint-plugin-import": "~2.6.1",
     "eslint-plugin-jsx-a11y": "~5.0.2",
     "eslint-plugin-react": "~7.1.0",
-    "husky": "~0.14.2"
+    "husky": "~0.14.2",
+    "validate-commit-msg": "~2.12.2"
   }
 }
