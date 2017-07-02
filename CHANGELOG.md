@@ -1,3 +1,13 @@
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/tripleaxis/semantic-release-demo/compare/v1.0.0...v1.1.0) (2017-07-02)
+
+
+### Features
+
+* **build:** Add commit message validator and moved linting check to prepush ([613ef6a](https://github.com/tripleaxis/semantic-release-demo/commit/613ef6a))
+
+
+
 <a name="1.0.0"></a>
 # 1.0.0 (2017-07-02)
 
