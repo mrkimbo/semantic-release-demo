@@ -1,3 +1,13 @@
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/tripleaxis/semantic-release-demo/compare/v1.1.0...v1.2.0) (2017-07-10)
+
+
+### Features
+
+* **app:** add a crap feature ([af7c39d](https://github.com/tripleaxis/semantic-release-demo/commit/af7c39d))
+
+
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/tripleaxis/semantic-release-demo/compare/v1.0.0...v1.1.0) (2017-07-02)
 
